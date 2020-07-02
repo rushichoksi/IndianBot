@@ -50,15 +50,15 @@ async def _(event):
         user.first_name = user.id
     pack = 1
     userid = event.from_id
-    #packname = f"IndiaBhai™keStickers"
-    #packshortname = f"IndianBot_{userid}_ns"  # format: Uni_Borg_userid
-    if userid == 953414679:
-        packname = f"IndianBhaikeStickers"
-        packshortname = "IndianBhai_ke_locker_me"
+    #packname = f"RCkeStickers"
+    #packshortname = f"RCBot_{userid}_ns"  # format: Uni_Borg_userid
+    if userid == 1157185602:
+        packname = f"RCkeStickers"
+        packshortname = "RC_ke_locker_me"
     else:
-        packname = f"{DEFAULTUSER}'s IndianBot Vol.{pack}"
-        packshortname = f"IndianBot_{userid}_kang"
-    await event.edit("`Look dat way,it's a gurl!\nMeanwhile, lemme kang this stcker over hehe ヽ༼ ಠ益ಠ ༽ﾉ`")
+        packname = f"{DEFAULTUSER}'s stickers.{pack}"
+        packshortname = f"RCBot_{userid}_kang"
+    await event.edit("`Dont look here!\nMeanwhile, lemme take this sticker to my owner pack hehe ヽ༼ ಠ益ಠ ༽ﾉ`")
 
     is_a_s = is_it_animated_sticker(reply_message)
     file_ext_ns_ion = "@IndianArMyGiveaway.png"
@@ -67,12 +67,12 @@ async def _(event):
     if is_a_s:
         file_ext_ns_ion = "AnimatedSticker.tgs"
         uploaded_sticker = await borg.upload_file(file, file_name=file_ext_ns_ion)
-        if userid == 953414679:
-            packname = f"IndiaBhaikeAnimeted"
-            packshortname = "IndianBhai_ke_Animated"
+        if userid == 1157185602:
+            packname = f"RCkaAnimatedpack"
+            packshortname = "RC_ka_Animated_pack"
         else:
-            packname = f"{DEFAULTUSER}'s IndianBot Animated Vol.{pack}"
-            packshortname = f"IndianBot_{userid}" # format: Uni_Borg_userid
+            packname = f"{DEFAULTUSER}'s  Animated Sticker.{pack}"
+            packshortname = f"RCBot_{userid}" # format: Uni_Borg_userid
     elif not is_message_image(reply_message):
         await event.edit("Invalid message type")
         return
@@ -88,7 +88,7 @@ async def _(event):
         now = datetime.datetime.now()
         dt = now + datetime.timedelta(minutes=1)
         if not await stickerset_exists(bot_conv, packshortname):
-            await event.edit("`Brewing a new pack! ヽ(´▽｀)ノ`")
+            await event.edit("`Making a new pack! ヽ(´▽｀)ノ`")
             await silently_send_message(bot_conv, "/cancel")
             if is_a_s:
                 response = await silently_send_message(bot_conv, "/newanimated")
@@ -115,7 +115,7 @@ async def _(event):
             response = await silently_send_message(bot_conv, f"<{packname}>")
             await silently_send_message(bot_conv, "/skip")
             response = await silently_send_message(bot_conv, packshortname)
-            if response.text == "Sorry, this short name is already taken.":
+            if response.text == "Sorry, this  name is already taken.":
                 await event.edit(f"**FAILED**! @Stickers replied: {response.text}")
                 return
         else:
@@ -132,14 +132,14 @@ async def _(event):
                 while response.text == FILLED_UP_DADDY:
                     pack += 1
                     prevv = int(pack) - 1
-                    packname = f"{DEFAULTUSER}'s IndianBot Vol.{pack}"
+                    packname = f"{DEFAULTUSER}'s RCBot Vol.{pack}"
                     packshortname = f"Vol_{pack}_with_{userid}"
                     #if userid == 948408212:
-                       # packname = f"{user.first_name}'s IndianBot Vol.{pack}"
-                       # packshortname = "Vol._{pack}_IndianBhai_ke_locker_me"
+                       # packname = f"{user.first_name}'s RCBot Vol.{pack}"
+                       # packshortname = "Vol._{pack}_RC_ke_locker_me"
                    # else:
-                       # packname = f"Vol._{pack}_IndianBot{userid}"
-                        #packshortname = f"Vol._{pack}_IndianBot_{userid}_ns"
+                       # packname = f"Vol._{pack}_RCBot{userid}"
+                        #packshortname = f"Vol._{pack}_RCBot_{userid}_ns"
                     if not await stickerset_exists(bot_conv, packshortname):
                         await event.edit("**Pack No. **" + str(prevv) + "** full! Making a new Pack, Vol. **" + str(pack))
                         if is_a_s:
