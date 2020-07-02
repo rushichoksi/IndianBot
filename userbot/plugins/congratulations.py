@@ -13,8 +13,8 @@ RUNSREACTS = [
     "`Congratulations and best wishes for your next adventure!”`",
     "`So pleased to see you accomplishing great things.`",
     "`Feeling so much joy for you today. What an impressive achievement!`",
+    "` CONGRATULATIONS WELL DONE.PARTY KAB HAI?`",
 ]
-
 @borg.on(admin_cmd(pattern="congo"))
 async def _(event):
     if event.fwd_from:
