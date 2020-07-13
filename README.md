@@ -1,13 +1,13 @@
 # RCBOT The UserBot 🇮🇳
 
 <p align="center">
+<img src="logo.jpg" alt="RC Bot">
 
 Best User Bot To Manage Your Telegram Account 😉
-## Most PowerFul And Better And Secure !
+## Most PowerFul And Better And Secure!
 
 ## By Team RC 🇮🇳
 
-## FORK AT YOUR OWN RISK !
 ## Don't Forget To Give A Star ⭐
 ### Installing Heroku 
 
