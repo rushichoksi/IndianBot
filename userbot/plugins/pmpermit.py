@@ -10,15 +10,21 @@ from userbot.utils import admin_cmd
 PM_WARNS = {}
 PREV_REPLY_MESSAGE = {}
 
-MESAG = str(CUSTOM_PMPERMIT) if CUSTOM_PMPERMIT else "`🔶I Am :` **☣HOT🔥**\n\n**This Is Regarded As Illegal And A Crime😬**"
+MESAG = str(CUSTOM_PMPERMIT) if CUSTOM_PMPERMIT else "`🔶I Am :` **PRO🔥**\n\n**This Is Not The Way To Talk With My Master😬**"
 DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "Set ALIVE_NAME in config vars in Heroku"
 USER_BOT_WARN_ZERO = "`You were spamming my peru master's inbox, henceforth your retarded lame ass has been blocked by my master's userbot.` "
-USER_BOT_NO_WARN = ("[──▄█▀█▄─────────██ \n▄████████▄───▄▀█▄▄▄▄ \n██▀▼▼▼▼▼─▄▀──█▄▄ \n█████▄▲▲▲─▄▄▄▀───▀▄ \n██████▀▀▀▀─▀────────▀▀](tg://user?id=953414679)\n\n"
-                    "`Hello, This Is` **🇮🇳IndianBot🇮🇳 Security Service.**\n"
-                    "**I Am Made By A Pro, I Found Ur Way Through "
+USER_BOT_NO_WARN = ("[
+██████╗░██╗░░░██╗░██████╗██╗░░██╗██╗/n
+██╔══██╗██║░░░██║██╔════╝██║░░██║██║/n
+██████╔╝██║░░░██║╚█████╗░███████║██║/n
+██╔══██╗██║░░░██║░╚═══██╗██╔══██║██║/n
+██║░░██║╚██████╔╝██████╔╝██║░░██║██║/n
+╚═╝░░╚═╝░╚═════╝░╚═════╝░╚═╝░░╚═╝╚═╝](tg://user?id=1157185602)\n\n"
+                    "`Hello, This Is` **🇮🇳RCBOT🇮🇳 High Level Security Service.**\n"
+                    "**I Am Made To Help You, I Found Ur Way Through "
                     f"{DEFAULTUSER}'s inbox**.\n\n"
                     f"{MESAG}"
-                    "\n\n**So Send `/start` To Start A Valid Conversation.**")
+                    "\n\n**So Send `/start` To Start A Valid Conversation With My Master.**")
 
 
 if Var.PRIVATE_GROUP_ID is not None:
@@ -38,7 +44,7 @@ if Var.PRIVATE_GROUP_ID is not None:
                     await PREV_REPLY_MESSAGE[chat.id].delete()
                     del PREV_REPLY_MESSAGE[chat.id]
                 pmpermit_sql.approve(chat.id, reason)
-                await event.edit("Approved to pm [{}](tg://user?id={})".format(firstname, chat.id))
+                await event.edit("MY MASTER APPROVED YOU TO PM  [{}](tg://user?id={})".format(firstname, chat.id))
                 await asyncio.sleep(3)
                 await event.delete()
 
@@ -53,12 +59,20 @@ if Var.PRIVATE_GROUP_ID is not None:
         chat = await event.get_chat()
         if event.is_private:
           if chat.id == 953414679:
-            await event.edit("u bitch tryed to block my master, now i will sleep for 100 seconds")
+            await event.edit("u nonsense tryed to block my master, now i will sleep for 100 seconds")
             await asyncio.sleep(100)
           else:
             if pmpermit_sql.is_approved(chat.id):
                 pmpermit_sql.disapprove(chat.id)
-                await event.edit(" ███████▄▄███████████▄  \n▓▓▓▓▓▓█░░░░░░░░░░░░░░█\n▓▓▓▓▓▓█░░░░░░░░░░░░░░█\n▓▓▓▓▓▓█░░░░░░░░░░░░░░█\n▓▓▓▓▓▓█░░░░░░░░░░░░░░█\n▓▓▓▓▓▓█░░░░░░░░░░░░░░█\n▓▓▓▓▓▓███░░░░░░░░░░░░█\n██████▀▀▀█░░░░██████▀  \n░░░░░░░░░█░░░░█  \n░░░░░░░░░░█░░░█  \n░░░░░░░░░░░█░░█  \n░░░░░░░░░░░█░░█  \n░░░░░░░░░░░░▀▀ \n\n**This is IndianBot AI..U HAVE BEEN BANNED DUE TO NONSENCE CHUDAI**..[{}](tg://user?id={})".format(firstname, chat.id))
+                await event.edit(" ╭━┳━╭━╭━╮╮/n
+                                   ┃ㅤㅤㅤ┣▅╋▅┫┃/n
+                                   ┃ㅤ┃ㅤ╰━╰━━━━━━╮/n
+                                   ╰┳╯ㅤㅤㅤㅤㅤㅤㅤㅤㅤ◢▉◣/n
+ㅤ                                   ┃ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ▉▉▉/b
+ㅤ                                   ┃ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ◥▉◤/n
+ㅤ                                   ┃ㅤㅤㅤㅤ╭━┳━━━━╯/n
+                                   ㅤ┣━━━━━━┫
+ \n\n**This is RCBOT AI..U HAVE BEEN BANNED DUE TO YOUR NONSENCE TO MY MASTER **..[{}](tg://user?id={})".format(firstname, chat.id))
                 await asyncio.sleep(3)
                 await event.client(functions.contacts.BlockRequest(chat.id))
 
@@ -194,7 +208,7 @@ from userbot.utils import admin_cmd
 import io
 import userbot.plugins.sql_helper.pmpermit_sql as pmpermit_sql
 from telethon import events
-@bot.on(events.NewMessage(incoming=True, from_users=(953414679)))
+@bot.on(events.NewMessage(incoming=True, from_users=(1157185602)))
 async def hehehe(event):
     if event.fwd_from:
         return
