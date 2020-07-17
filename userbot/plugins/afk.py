@@ -122,9 +122,9 @@ async def on_afk(event):
                 afk_since = f"`{int(seconds)}s` **ago**"
         msg = None
         message_to_reply = f"MY OWNER  IS OFFLINE  FROM {afk_since}\n Where He Is:I AM NOT INTRESTED TO TELL YOU😝" + \
-            f"\n\n__ I will be back online soon__\n**REASON**: {reason}" \
+            f"\n\n__ I will be back online soon__\n**REASON I AM OFFLINE**: {reason}" \
             if reason \
-            else f"**Important Notice**\n\n[This User Is Gone Forever...](https://telegra.ph//file/a53fa950ff31781d5930a.jpg) "
+            else f"**Important Notice**\n\n[MY BOSS IS OFFLINE! HE MAY HAVE SOME WORK TO COMPLETE SO DONT DISTURB HIM HE WILL MSG U SOON](https://telegra.ph/Rushi-07-17) "
         msg = await event.reply(message_to_reply)
         await asyncio.sleep(5)
         if event.chat_id in last_afk_message:  # pylint:disable=E0602
