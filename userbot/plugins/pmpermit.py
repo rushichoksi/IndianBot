@@ -12,8 +12,8 @@ PREV_REPLY_MESSAGE = {}
 
 MESAG = str(CUSTOM_PMPERMIT) if CUSTOM_PMPERMIT else "`🔶I Am :` **PRO🔥**\n\n**This Is Not The Way To Talk With My Master😬**"
 DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "Set ALIVE_NAME in config vars in Heroku"
-USER_BOT_WARN_ZERO = "`You were spamming my peru master's inbox, henceforth your retarded lame ass has been blocked by my master's userbot.` "
-USER_BOT_NO_WARN = ("[██████╗░██╗░░░██╗░██████╗██╗░░██╗██╗ /n██╔══██╗██║░░░██║██╔════╝██║░░██║██║ /n██████╔╝██║░░░██║╚█████╗░███████║██║ /n██╔══██╗██║░░░██║░╚═══██╗██╔══██║██║ /n██║░░██║╚██████╔╝██████╔╝██║░░██║██║ /n╚═╝░░╚═╝░╚═════╝░╚═════╝░╚═╝░░╚═╝╚═╝](tg://user?id=1157185602)\n\n"
+USER_BOT_WARN_ZERO = "`You were spamming my peru master's inbox, without his permission so your punishment  is that you a are blocked by master's userbot.` "
+USER_BOT_NO_WARN = ("[RUSHI](tg://user?id=1157185602)\n\n"
                     "`Hello, This Is` **🇮🇳RCBOT🇮🇳 High Level Security Service.**\n"
                     "**I Am Made To Help You, I Found Ur Way Through "
                     f"{DEFAULTUSER}'s inbox**.\n\n"
