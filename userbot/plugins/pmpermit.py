@@ -22,7 +22,7 @@ USER_BOT_NO_WARN = ("[█▀█ █░█ █▀ █░█ █░░░ 
 
 
 if Var.PRIVATE_GROUP_ID is not None:
-    @command(pattern="^.approve ?(.*)")
+    @command(pattern=".approve ?(.*)")
     async def approve_p_m(event):
         if event.fwd_from:
            return
