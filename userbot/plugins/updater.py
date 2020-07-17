@@ -140,7 +140,7 @@ def generate_change_log(git_repo, diff_marker):
 
 async def deploy_start(bot, message, refspec, remote):
     await message.edit(RESTARTING_APP)
-    await message.edit("😎⌐╦╦═─😎 Deploy Successful🇮🇳 \n To IndianBranch")
+    await message.edit("😎⌐╦╦═─😎 Deploy Successful🇮🇳 \n To RCBOT IndianBranch")
     await remote.push(refspec=refspec)
     await bot.disconnect()
     os.execl(sys.executable, sys.executable, *sys.argv)
