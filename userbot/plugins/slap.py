@@ -1,7 +1,6 @@
 """
 SLAP Plugin For Userbot
 usage:- .slap in reply to any message, or u gonna slap urself.
-
 """
 
 import sys
@@ -24,7 +23,6 @@ SLAP_TEMPLATES = [
     "{user1} grabs up a {item} and {hits} {user2} with it.",
     "{user1} ties {user2} to a chair and {throws} a {item} at them.",
     "{user1} gave a friendly push to help {user2} learn to swim in lava."
-    "{user1} picked up a gun and fired a bullet to {user2}."
 ]
 
 ITEMS = [
