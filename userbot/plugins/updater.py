@@ -23,8 +23,8 @@ NEW_BOT_UP_DATE_FOUND = (
     "updating ..."
 )
 NEW_UP_DATE_FOUND = (
-    "new update found for {branch_name}\n"
-    "updating ..."
+    "NEW UPDATE FOUND {branch_name}\n"
+    "UPDATING... WAIT MASTER"
 )
 REPO_REMOTE_NAME = "temponame"
 IFFUCI_ACTIVE_BRANCH_NAME = "master"
