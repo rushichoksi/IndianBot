@@ -58,14 +58,7 @@ if Var.PRIVATE_GROUP_ID is not None:
           else:
             if pmpermit_sql.is_approved(chat.id):
                 pmpermit_sql.disapprove(chat.id)
-                await event.edit(" ╭━┳━╭━╭━╮╮/n
-                                   ┃ㅤㅤㅤ┣▅╋▅┫┃/n
-                                   ┃ㅤ┃ㅤ╰━╰━━━━━━╮/n
-                                   ╰┳╯ㅤㅤㅤㅤㅤㅤㅤㅤㅤ◢▉◣/n
-ㅤ                                   ┃ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ▉▉▉/n
-ㅤ                                   ┃ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ◥▉◤/n
-ㅤ                                   ┃ㅤㅤㅤㅤ╭━┳━━━━╯/n
-                                   ㅤ┣━━━━━━┫
+                await event.edit(" ╭━┳━╭━╭━╮╮/n  ┃ㅤㅤㅤ┣▅╋▅┫┃/n┃ㅤ┃ㅤ╰━╰━━━━━━╮/n ╰┳╯ㅤㅤㅤㅤㅤㅤㅤㅤㅤ◢▉◣/n ┃ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ▉▉▉/n  ┃ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ◥▉◤/n ㅤ┣━━━━━━┫
  \n\n**This is RCBOT AI..U HAVE BEEN BANNED DUE TO YOUR NONSENCE TO MY MASTER **..[{}](tg://user?id={})".format(firstname, chat.id))
                 await asyncio.sleep(3)
                 await event.client(functions.contacts.BlockRequest(chat.id))
