@@ -49,14 +49,14 @@ async def _(event):
    "██╔══██╗██║░░░██║░╚═══██╗██╔══██║██║/n"
    "██║░░██║╚██████╔╝██████╔╝██║░░██║██║/n"
    "╚═╝░░╚═╝░╚═════╝░╚═════╝░╚═╝░░╚═╝╚═╝ /n")
-         TW = (" `╭━┳━╭━╭━╮╮/n
-                  ┃ㅤㅤㅤ┣▅╋▅┫┃/n
-                  ┃ㅤ┃ㅤ╰━╰━━━━━━╮/n
-                  ╰┳╯ㅤㅤㅤㅤㅤㅤㅤㅤㅤ◢▉◣/n
-ㅤ                  ┃ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ▉▉▉/n
-ㅤ                  ┃ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ◥▉◤/n
-ㅤ                  ┃ㅤㅤㅤㅤ╭━┳━━━━╯/n
-                   ┣━━━━━━┫ `\n\n**So uncool, this is not your home. Go bother someone else. You have been blocked and reported until further notice.**")
+         TW = (" ╭━┳━╭━╭━╮╮/n
+                 ┃ㅤㅤㅤ┣▅╋▅┫┃/n
+                 ┃ㅤ┃ㅤ╰━╰━━━━━━╮/n
+                 ╰┳╯ㅤㅤㅤㅤㅤㅤㅤㅤㅤ◢▉◣/n
+ㅤ                 ┃ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ▉▉▉/n
+ㅤ                 ┃ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ◥▉◤/n
+ㅤ                 ┃ㅤㅤㅤㅤ╭━┳━━━━╯/n
+                  ┣━━━━━━┫ \n\n**So uncool, this is not your home. Go bother someone else. You have been blocked and reported until further notice.**")
          FOUR = ("__Okay. My master has not seen your message yet.He usually responds to people.__\n __He'll respond when he comes back, if he wants to.There's already a lot of pending messages😶__\n **Please do not spam unless you wish to be blocked and reported.**")
          FIVE = ("`Okay. Pls dont msg my master too much. If he wishes to help you, he will respond to you soon.`\n**Do not ask repeatdly else you will be blocked and reported.**")
          LWARN = ("**This is your last warning. DO NOT send another message else you will be blocked and reported. Keep patience. My master will respond you soon.**\n__Use__ `/start` __to go back to the main menu.__")
