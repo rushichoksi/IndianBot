@@ -9,4 +9,4 @@ Best User Bot To Manage Your Telegram Account 😉
 ### Installing Heroku 
 
 ### The Easy Way
-[![Deploy To Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/rushichoksi/GroupManager)
+[![Deploy To Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/rushichoksi/Indianbot)
