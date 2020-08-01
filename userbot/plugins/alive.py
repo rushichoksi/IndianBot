@@ -12,7 +12,9 @@ RCBOT_IS_ALIVE = ("**I AM STILL ALIVE SIR ✌** \n`🇮🇳BOT Status : ` **AWES
                      f"`MY PRO OWNER`: {DEFAULTUSER}\n\n"
                      "`RC Bot Version:` [1.0](https://telegra.ph/RCBOT-07-02)\n`Python:` **3.7.4**\n"
                      "`Database Status:` **ALL WELL AND GOOD🙂**\n\n`ALWAYS WITH YOU AND WORKING FOR U MU MASTER!\n`"
-                     "**Bot Creator:** [RUSHI CHOKSI](t.me/Mai_RC)\n\n"
+                     "**Bot Creator:** [🇮🇳RUSHI CHOKSI](t.me/Mai_RC)\n"
+                     "**Coding helper:** [🇮🇳INDIAN BHAI](t.me/pureindialover)\n"
+                     "**Updates helper:** [🇮🇳AKASH](t.me/AKASH_AM1)\n\n"
                      "     Want To Deploy This 🇮🇳RCBot🇮🇳 Contact My creator Rushi🤟") 
 
 
